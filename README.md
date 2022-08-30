@@ -10,4 +10,4 @@
 ![Shopify Home Page Preview](./Shopify-Home-Page.png)
 
 Project is deployed on **Netlify**:
-- You can preview the project here, [**Shopify Home Page**]()
+- You can preview the project here, [**Shopify Home Page**](https://shopify-home-page-17.netlify.app/)
