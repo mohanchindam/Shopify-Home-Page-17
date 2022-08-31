@@ -14,19 +14,18 @@
     <script>
         tailwind.config = {
             theme: {
-                // screens: {
-                //     sm: '480px',
-                //     md: '768px',
-                //     lg: '976px',
-                //     xl: '1440px'
-                // },
+                screens: {
+                    'xs': '320px',
+                    'sm': '640px',
+                    'md': '768px',
+                    'lg': '1024px',
+                    'xl': '1280px',
+                    '2xl': '1536px'
+                },
                 extend: {
                     colors: {
                         slightGreen: "#008060",
                         sdarkGreen: "#004C3F",
-                        //  seaDhell: '#FBF7ED',
-                        //  paleGreen: '#A5E3B9',
-                        //  honeydew: '#F3FCF4',
                     }
                 }
             }
@@ -127,9 +126,9 @@
                             market for free. <br class="hidden sm:block">No technical knowledge
                             needed.</p>
                     </div>
-                    <div class="flex gap-[15px] mb-7">
+                    <div class="flex flex-col xs:flex-row gap-[15px] mb-7 w-full xs:w-auto">
                         <input
-                            class="placeholder:text-gray-600 placeholder:font-thin placeholder:text-[16px] sm:placeholder:text-[18px] w-[65%] sm:w-[70%] rounded border-black border-[1px] focus:outline-8 focus:outline-slightGreen p-3"
+                            class="placeholder:text-gray-600 placeholder:font-thin placeholder:text-[16px] sm:placeholder:text-[18px] w-full xs:w-[65%] sm:w-[70%] rounded border-black border-[1px] focus:outline-8 focus:outline-slightGreen p-3"
                             type='email' placeholder="Enter your email address">
                         <button
                             class="text-white cursor-pointer font-bold bg-slightGreen hover:bg-sdarkGreen p-2 px-6 sm:px-8 rounded shadow-md hover:shadow-xl">
